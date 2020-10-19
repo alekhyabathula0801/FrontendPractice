@@ -11,7 +11,7 @@ body {
 
 .flame--home--page > header {
   background-color: #f45650;
-  padding: 0.8rem;
+  padding: 1.2rem 1rem;
   color: white;
   display: flex;
   justify-content: space-evenly;
@@ -64,4 +64,45 @@ body {
   font-weight: 700;
   background-color: rgb(241, 233, 233);
   padding: 0.45rem 1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .flame--home--page > header {
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .flame--home--page > header {
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 1rem;
+  }
+
+  .fa {
+    font-size: 0.85rem;
+  }
+
+  .flame--home--page > header > div:nth-child(2) a:nth-child(7) {
+    padding: 0.3rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .flame--home--page > header > div:first-child {
+    flex-direction: column;
+    row-gap: 0.5rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .flame--home--page > header > div:nth-child(2) a:nth-child(6) i {
+    padding: 0 0.25rem;
+  }
+
+  .flame--home--page > header > div:nth-child(2) a:nth-child(7) {
+    padding: 0.2rem;
+  }
 }
