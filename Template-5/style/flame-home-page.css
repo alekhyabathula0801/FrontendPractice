@@ -117,7 +117,7 @@ body {
   padding: 0 0.8rem;
 }
 
-.flame--home--page--details {
+.flame__home__page__details {
   display: flex;
   flex-direction: row;
   color: white;
@@ -126,8 +126,8 @@ body {
   padding: 0 1rem;
 }
 
-.flame--home--page--details > div:nth-child(1) button,
-.flame--home--page--details > div:nth-child(3) button {
+.flame__home__page__details > div:nth-child(1) button,
+.flame__home__page__details > div:nth-child(3) button {
   padding: 0.5rem;
   color: white;
   background-color: transparent;
@@ -138,14 +138,14 @@ body {
   margin-top: 6rem;
 }
 
-.flame--home--page--details > div:nth-child(2) {
+.flame__home__page__details > div:nth-child(2) {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 1rem;
 }
 
-.flame--home--page--details > div:nth-child(2) > h2 {
+.flame__home__page__details > div:nth-child(2) > h2 {
   padding: 1.5rem 0 1rem 0;
   margin: 0;
   font-size: 2rem;
@@ -153,21 +153,21 @@ body {
   text-align: center;
 }
 
-.flame--home--page--details > div:nth-child(2) > p {
+.flame__home__page__details > div:nth-child(2) > p {
   text-align: center;
   margin: 0;
 }
 
-.flame--home--page--details > div:nth-child(2) > div:nth-child(3) {
+.flame__home__page__details > div:nth-child(2) > div:nth-child(3) {
   padding: 1rem 0 2rem 0;
 }
 
-.flame--home--page--details > div:nth-child(2) > div:nth-child(3) > span {
+.flame__home__page__details > div:nth-child(2) > div:nth-child(3) > span {
   padding: 0 1rem;
   color: #f45650;
 }
 
-.flame--home--page--details > div:nth-child(2) > button {
+.flame__home__page__details > div:nth-child(2) > button {
   padding: 0.5rem 1rem;
   margin-bottom: 3rem;
   outline: none;
@@ -177,7 +177,7 @@ body {
   cursor: pointer;
 }
 
-.flame--home--page--details > div:nth-child(2) > div:nth-child(5) {
+.flame__home__page__details > div:nth-child(2) > div:nth-child(5) {
   display: flex;
   justify-content: center;
   padding: 1rem 0;
@@ -187,25 +187,25 @@ body {
   max-width: 68rem;
 }
 
-.flame--home--page--details > div:nth-child(2) > div:nth-child(5) div {
+.flame__home__page__details > div:nth-child(2) > div:nth-child(5) div {
   padding: 1rem 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.flame--home--page--details
+.flame__home__page__details
   > div:nth-child(2)
   > div:nth-child(5)
   div:nth-child(1),
-.flame--home--page--details
+.flame__home__page__details
   > div:nth-child(2)
   > div:nth-child(5)
   div:nth-child(2) {
   border-right: 1px solid rgb(192, 180, 180);
 }
 
-.flame--home--page--details > div:nth-child(2) > div:nth-child(5) div i {
+.flame__home__page__details > div:nth-child(2) > div:nth-child(5) div i {
   color: red;
   font-size: 1.3rem;
   padding: 0.5rem;
@@ -214,7 +214,7 @@ body {
   margin-bottom: 0.4rem;
 }
 
-.flame--home--page--details
+.flame__home__page__details
   > div:nth-child(2)
   > div:nth-child(5)
   div:first-child
@@ -222,7 +222,7 @@ body {
   padding: 0.4rem 0.7rem;
 }
 
-.flame--home--page--details
+.flame__home__page__details
   > div:nth-child(2)
   > div:nth-child(5)
   div:nth-child(2)
@@ -230,14 +230,14 @@ body {
   padding: 0.4rem 0.5rem;
 }
 
-.flame--home--page--details > div:nth-child(2) > div:nth-child(5) div h6,
-.flame--home--page--details > div:nth-child(2) > div:nth-child(5) div p {
+.flame__home__page__details > div:nth-child(2) > div:nth-child(5) div h6,
+.flame__home__page__details > div:nth-child(2) > div:nth-child(5) div p {
   margin: 0;
   padding: 0.4rem 0;
   text-align: center;
 }
 
-.flame--home--page--details > div:nth-child(2) > div:nth-child(5) div p {
+.flame__home__page__details > div:nth-child(2) > div:nth-child(5) div p {
   font-size: 0.6rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -305,8 +305,8 @@ body {
     padding: 0 0.4rem;
   }
 
-  .flame--home--page--details > div:nth-child(1),
-  .flame--home--page--details > div:nth-child(3) {
+  .flame__home__page__details > div:nth-child(1),
+  .flame__home__page__details > div:nth-child(3) {
     display: none;
   }
 
@@ -332,34 +332,34 @@ body {
     padding: 0.4rem;
   }
 
-  .flame--home--page--details > div:nth-child(2) {
+  .flame__home__page__details > div:nth-child(2) {
     padding: 0 0.5rem;
   }
 
-  .flame--home--page--details > div:nth-child(2) > div:nth-child(5) {
+  .flame__home__page__details > div:nth-child(2) > div:nth-child(5) {
     flex-direction: column;
   }
 
-  .flame--home--page--details > div:nth-child(2) > div:nth-child(5) {
+  .flame__home__page__details > div:nth-child(2) > div:nth-child(5) {
     padding: 0 0.7rem;
   }
 
-  .flame--home--page--details > div:nth-child(2) > div:nth-child(3) > span {
+  .flame__home__page__details > div:nth-child(2) > div:nth-child(3) > span {
     padding: 0 0rem;
     color: #f45650;
   }
 
-  .flame--home--page--details > div:nth-child(2) > h2 {
+  .flame__home__page__details > div:nth-child(2) > h2 {
     padding: 1.2rem 0 0.5rem 0;
     font-size: 1.3rem;
     max-width: 45rem;
   }
 
-  .flame--home--page--details
+  .flame__home__page__details
     > div:nth-child(2)
     > div:nth-child(5)
     div:nth-child(1),
-  .flame--home--page--details
+  .flame__home__page__details
     > div:nth-child(2)
     > div:nth-child(5)
     div:nth-child(2) {
@@ -367,7 +367,7 @@ body {
     border-right: none;
   }
 
-  .flame--home--page--details > div:nth-child(2) > button {
+  .flame__home__page__details > div:nth-child(2) > button {
     padding: 0.5rem 1rem;
     margin-bottom: 1.6rem;
   }
