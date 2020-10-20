@@ -63,3 +63,53 @@
   cursor: pointer;
   font-family: Georgia, serif;
 }
+
+@media only screen and (max-width: 1400px) {
+  .about--flame > div:nth-child(2) > h2 {
+    width: 50%;
+    padding: 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .about--flame > div:nth-child(1) {
+    display: none;
+  }
+
+  .about--flame > div:nth-child(2) {
+    width: 100%;
+    padding: 4rem 1rem;
+  }
+
+  .about--flame > div:nth-child(2) > h2 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about--flame {
+    padding: 6rem 0;
+  }
+
+  .about--flame > div:nth-child(2) > p {
+    width: 90%;
+  }
+
+  .about--flame > div:nth-child(2) > div {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .about--flame > div:nth-child(2) > p {
+    width: 90%;
+  }
+
+  .about--flame > div:nth-child(2) > div {
+    width: 97%;
+  }
+
+  .about--flame > div:nth-child(2) > div > button {
+    padding: 0.5rem 0.6rem;
+  }
+}
