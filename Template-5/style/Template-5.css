@@ -276,6 +276,10 @@ body {
     row-gap: 1rem;
   }
 
+  .flame--home--page > div > header > div:nth-child(2) a:first-child {
+    padding: 0.3rem 0.3rem 0.3rem 0;
+  }
+
   .fa {
     font-size: 0.85rem;
   }
@@ -283,21 +287,88 @@ body {
   .flame--home--page > div > header > div:nth-child(2) a:nth-child(7) {
     padding: 0.3rem;
   }
+
+  .flame--home--page > div {
+    height: 43rem;
+  }
+
+  .flame--home--page > div > nav {
+    justify-content: space-between;
+    padding: 0.4rem;
+  }
+
+  .flame--home--page > div > nav > div:nth-child(2) a {
+    padding: 0 0.4rem;
+  }
+
+  .flame--home--page > div > nav > div:nth-child(2) a + span {
+    padding: 0 0.4rem;
+  }
+
+  .flame--home--page--details > div:nth-child(1),
+  .flame--home--page--details > div:nth-child(3) {
+    display: none;
+  }
+
+  .flame--home--page > div > footer {
+    padding: 1rem;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-  .flame--home--page > div > header > div:first-child {
-    flex-direction: column;
-    row-gap: 0.5rem;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-
-  .flame--home--page > div > header > div:nth-child(2) a:nth-child(6) i {
-    padding: 0 0.25rem;
-  }
-
+  .flame--home--page > div > header > div:first-child > span:nth-child(2),
+  .flame--home--page > div > header > div:nth-child(2) a:nth-child(6),
   .flame--home--page > div > header > div:nth-child(2) a:nth-child(7) {
-    padding: 0.2rem;
+    display: none;
+  }
+
+  .flame--home--page > div {
+    height: 50rem;
+  }
+
+  .flame--home--page > div > nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.4rem;
+  }
+
+  .flame--home--page--details > div:nth-child(2) {
+    padding: 0 0.5rem;
+  }
+
+  .flame--home--page--details > div:nth-child(2) > div:nth-child(5) {
+    flex-direction: column;
+  }
+
+  .flame--home--page--details > div:nth-child(2) > div:nth-child(5) {
+    padding: 0 0.7rem;
+  }
+
+  .flame--home--page--details > div:nth-child(2) > div:nth-child(3) > span {
+    padding: 0 0rem;
+    color: #f45650;
+  }
+
+  .flame--home--page--details > div:nth-child(2) > h2 {
+    padding: 1.2rem 0 0.5rem 0;
+    font-size: 1.3rem;
+    max-width: 45rem;
+  }
+
+  .flame--home--page--details
+    > div:nth-child(2)
+    > div:nth-child(5)
+    div:nth-child(1),
+  .flame--home--page--details
+    > div:nth-child(2)
+    > div:nth-child(5)
+    div:nth-child(2) {
+    border-bottom: 1px solid rgb(192, 180, 180);
+    border-right: none;
+  }
+
+  .flame--home--page--details > div:nth-child(2) > button {
+    padding: 0.5rem 1rem;
+    margin-bottom: 1.6rem;
   }
 }
