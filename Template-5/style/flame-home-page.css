@@ -12,6 +12,7 @@ body {
 
 .flame--home--page {
   width: 100%;
+  display: inline-block;
 }
 
 .flame--home--page > div {
@@ -175,6 +176,7 @@ body {
   border: none;
   background-color: white;
   cursor: pointer;
+  font-family: Georgia, serif;
 }
 
 .flame__home__page__details > div:nth-child(2) > div:nth-child(5) {
