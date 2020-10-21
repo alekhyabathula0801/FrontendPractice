@@ -78,3 +78,31 @@
   font-size: 2rem;
   color: red;
 }
+
+@media only screen and (max-width: 1400px) {
+  .choose--flame > h1 {
+    width: 80%;
+  }
+
+  .choose--flame > main {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .choose--flame > h1 {
+    width: 92%;
+  }
+
+  .choose--flame > main {
+    width: 92%;
+  }
+
+  .choose--flame > main > div:first-child {
+    width: 95%;
+  }
+
+  .choose--flame > main > div:nth-child(2) {
+    display: none;
+  }
+}
