@@ -2,7 +2,8 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 3rem 0;
+  padding: 2rem 0;
+  align-items: center;
 }
 
 .flame--services > header {
@@ -14,15 +15,17 @@
 
 .flame--services > header > h2 {
   margin: 0;
-  padding: 1.2rem 1rem;
-  width: 100%;
+  padding: 1.2rem 0;
+  width: 98%;
+  font-size: 1.9rem;
   text-align: center;
 }
 
 .flame--services > header > p {
   margin: 0;
-  padding: 1rem;
+  padding: 1rem 0;
   text-align: center;
+  width: 50%;
 }
 
 .flame--services > header > div i {
@@ -35,7 +38,7 @@
   display: flex;
   justify-content: center;
   padding: 1.5rem 0;
-  width: 100%;
+  width: 90%;
 }
 
 .flame--services > div > div:nth-child(1) {
@@ -55,8 +58,8 @@
   flex-direction: column;
   align-items: center;
   padding: 3.5rem 1rem;
-  width: 35%;
-  box-shadow: 1px 1px 3px grey;
+  width: 40%;
+  box-shadow: 1px 1px 4px grey;
 }
 
 .flame--services > div > div:nth-child(1) div i {
@@ -83,9 +86,67 @@
 }
 
 .flame--services > div > div:nth-child(2) {
-  width: 35%;
+  width: 38%;
   background-position: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(../images/flame-services-bg.jpg);
+}
+
+@media only screen and (max-width: 1200px) {
+  .flame--services > header > p {
+    width: 70%;
+  }
+
+  .flame--services > div > div:nth-child(1) {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .flame--services > div > div:nth-child(1) div {
+    width: 30%;
+  }
+
+  .flame--services > div > div:nth-child(2) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .flame--services > header > p {
+    width: 80%;
+  }
+
+  .flame--services > div > div:nth-child(1) div {
+    width: 42%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .flame--services > header > p {
+    width: 90%;
+  }
+
+  .flame--services > div > div:nth-child(1) div {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .flame--services {
+    padding: 1rem 0;
+  }
+
+  .flame--services > header > p {
+    width: 95%;
+  }
+
+  .flame--services > div {
+    padding: 1.2rem 0;
+  }
+
+  .flame--services > div > div:nth-child(1) div {
+    width: 85%;
+    padding: 2rem 1rem;
+  }
 }

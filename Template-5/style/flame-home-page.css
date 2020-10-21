@@ -137,6 +137,7 @@ body {
   cursor: pointer;
   outline: none;
   margin-top: 6rem;
+  width: 5rem;
 }
 
 .flame__home__page__details > div:nth-child(2) {
