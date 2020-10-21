@@ -110,43 +110,80 @@
 }
 
 .flame--team > main > div:nth-child(2) {
-    display: flex;
-    padding: 1.8rem 0;
-    align-items: center;
-    justify-content: center;
-    column-gap: 0.4rem;
+  display: flex;
+  padding: 1.8rem 0;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.4rem;
 }
 
 .flame--team > main > div:nth-child(2) span {
-    width: 1.2rem;
-    height: 0.2rem;
-    background-color: black;
+  width: 1.2rem;
+  height: 0.2rem;
+  background-color: black;
 }
 
 .flame--team > main > div:nth-child(2) span:first-child {
-    background-color: red;
+  background-color: red;
 }
 
 .flame--team > main > div:nth-child(4) {
-    display: flex;
-    padding: 1.8rem 0;
-    align-items: center;
-    justify-content: center;
-    column-gap: 1rem;
+  display: flex;
+  padding: 1.8rem 0;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1rem;
+  flex-wrap: wrap;
+  row-gap: 1rem;
 }
 
 .flame--team > main > div:nth-child(4) button {
-    outline: none;
-    background-color: white;
-    padding: 0.4rem 0.9rem;
-    border: 1px solid black;
+  outline: none;
+  background-color: white;
+  padding: 0.4rem 0.9rem;
+  border: 1px solid black;
 }
 
 .flame--team > main > div:nth-child(4) button:nth-child(3),
 .flame--team > main > div:nth-child(4) button:nth-child(4) {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .flame--team > main > div:nth-child(4) button i {
-    font-size: 1.7rem;
+  font-size: 1.7rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .flame--team > header > p,
+  .flame--team > main > div:nth-child(3) > p {
+    width: 70%;
+  }
+
+  .flame--team > main > div:nth-child(1) > div:nth-child(1),
+  .flame--team > main > div:nth-child(1) > div:nth-child(2),
+  .flame--team > main > div:nth-child(1) > div:nth-child(3) {
+    width: 32%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .flame--team > header > p,
+  .flame--team > main > div:nth-child(3) > p {
+    width: 90%;
+  }
+
+  .flame--team > main > div:nth-child(1) > div:nth-child(1),
+  .flame--team > main > div:nth-child(1) > div:nth-child(3) {
+    display: none;
+  }
+
+  .flame--team > main > div:nth-child(1) > div:nth-child(2) {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .flame--team > main > div:nth-child(1) > div:nth-child(2) {
+    width: 65%;
+  }
 }
