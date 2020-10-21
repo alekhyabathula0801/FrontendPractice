@@ -1,0 +1,132 @@
+.flame--latest--blogs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 0;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+
+.flame--latest--blogs > header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.flame--latest--blogs > header > h2 {
+  margin: 0;
+  padding: 1.2rem 0;
+  width: 98%;
+  font-size: 1.9rem;
+  text-align: center;
+}
+
+.flame--latest--blogs > header > p {
+  margin: 0;
+  padding: 1rem 0;
+  text-align: center;
+  width: 50%;
+}
+
+.flame--latest--blogs > header > div i {
+  color: red;
+  font-size: 1.7rem;
+  padding-bottom: 1.5rem;
+}
+
+.flame--latest--blogs > main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flame--latest--blogs > main > div {
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.flame--latest--blogs > main > div > div {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 5px gray;
+  background-color: white;
+}
+
+.flame--latest--blogs > main > div > div div:nth-child(1) {
+  background-image: url(../images/flame-blogs-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15rem;
+}
+
+.flame--latest--blogs > main > div > div div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem;
+}
+.flame--latest--blogs > main > div > div div:nth-child(2) h4 {
+  font-family: Georgia, serif;
+}
+
+.flame--latest--blogs > main > div > div div:nth-child(2) h4,
+.flame--latest--blogs > main > div > div div:nth-child(2) p {
+  margin: 0;
+  padding: 0.8rem 0;
+  font-size: 0.7rem;
+}
+
+.flame--latest--blogs > main > div > div div:nth-child(2) span:nth-child(3) {
+  width: 12rem;
+  height: 1px;
+  background-color: rgba(100, 95, 95, 0.678);
+}
+
+.flame--latest--blogs > main > div > div div:nth-child(2) span:nth-child(4) {
+  display: flex;
+  color: grey;
+  padding: 0.7rem 0;
+}
+
+.flame--latest--blogs > main > div > div div:nth-child(2) span:nth-child(4) i {
+  padding-right: 0.5rem;
+  cursor: pointer;
+}
+
+.flame--latest--blogs
+  > main
+  > div
+  > div
+  div:nth-child(2)
+  span:nth-child(4)
+  i:nth-child(2),
+.flame--latest--blogs
+  > main
+  > div
+  > div
+  div:nth-child(2)
+  span:nth-child(4)
+  i:nth-child(3) {
+  padding-left: 0.5rem;
+}
+
+.flame--latest--blogs > main > div > div div:nth-child(2) a {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: Georgia, serif;
+}
+
+.flame--latest--blogs > main > button {
+  padding: 0.5rem 1rem;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+  background-color: rgba(243, 23, 23, 0.897);
+  color: white;
+  cursor: pointer;
+  font-family: Georgia, serif;
+}
