@@ -3,8 +3,9 @@
   display: flex;
   flex-direction: column;
   background-color: #f1f1f1;
-  padding: 5rem 0;
+  padding: 5rem 0 0 0;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 .choose--flame > h1 {
@@ -18,7 +19,7 @@
 .choose--flame > main {
   display: flex;
   width: 70%;
-  padding: 1rem 0;
+  padding: 1rem 0 3rem 0;
 }
 
 .choose--flame > main > div:first-child {
@@ -77,6 +78,55 @@
 .choose--flame > main > div:nth-child(2) button i {
   font-size: 2rem;
   color: red;
+}
+
+.choose--flame > footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 2rem 0;
+  background-color: rgba(241, 12, 12, 0.877);
+}
+
+.choose--flame > footer > h2 {
+  margin: 0;
+  padding: 1rem 0 0 0;
+}
+
+.choose--flame > footer > p {
+  margin: 0;
+  padding: 1rem;
+}
+
+.choose--flame > footer > div {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.choose--flame > footer > div input {
+  background-color: rgba(29, 28, 28, 0.918);
+  padding: 0.8rem 0.2rem 0.8rem 1.5rem;
+  outline: none;
+  border: 1px solid black;
+  color: white;
+}
+
+.choose--flame > footer > div > input:nth-child(1) {
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  width: 20rem;
+}
+
+.choose--flame > footer > div > input:nth-child(1)::placeholder {
+  color: whitesmoke;
+}
+
+.choose--flame > footer > div > input:nth-child(2) {
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
 }
 
 @media only screen and (max-width: 1400px) {
