@@ -38,14 +38,13 @@
   color: white;
 }
 
-.choose--flame > main > div:first-child div h3 {
+.choose--flame > main > div:first-child div h3,
+.choose--flame > main > div:first-child div p {
   margin: 0;
   padding: 1rem 0;
 }
 
 .choose--flame > main > div:first-child div p {
-  margin: 0;
-  padding: 1rem 0;
   font-size: 0.4rem;
 }
 
@@ -98,6 +97,7 @@
 .choose--flame > footer > p {
   margin: 0;
   padding: 1rem;
+  text-align: center;
 }
 
 .choose--flame > footer > div {
@@ -154,5 +154,21 @@
 
   .choose--flame > main > div:nth-child(2) {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .choose--flame > footer > div {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    row-gap: 0.2rem;
+  }
+  .choose--flame > footer > div > input:nth-child(1),
+  .choose--flame > footer > div > input:nth-child(2) {
+    width: 80%;
+    border-radius: 0;
+    text-align: center;
+    padding: 0.5rem;
   }
 }
