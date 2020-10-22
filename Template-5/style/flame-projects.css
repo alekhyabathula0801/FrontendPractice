@@ -44,6 +44,10 @@
   display: flex;
   column-gap: 1rem;
   padding: 1rem 0;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .flame--projects > main > div:nth-child(1) button {
@@ -55,6 +59,7 @@
   cursor: pointer;
   font-family: Georgia, serif;
   font-weight: 600;
+  margin: 0 0.5rem;
 }
 
 .flame--projects > main > div:nth-child(2) {
@@ -70,4 +75,22 @@
   color: white;
   cursor: pointer;
   font-family: Georgia, serif;
+}
+
+@media only screen and (max-width: 1200px) {
+  .flame--projects > header > p {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .flame--projects > header > p {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .flame--projects > header > p {
+    width: 90%;
+  }
 }
